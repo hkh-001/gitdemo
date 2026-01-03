@@ -31,6 +31,7 @@ print(X)
 
 K = torch.tensor([[1.0, -1.0]])
 Y = corr2d(X, K)
+print(Y)
 
 print(corr2d(X.t(), K))
 # 构造一个二维卷积层，它具有1个输出通道和形状为（1，2）的卷积核
