@@ -7,4 +7,5 @@ int main(){
     cout<<a<<endl;
     printf("hello word");
     return 0;
+    cout<<1;
 }
